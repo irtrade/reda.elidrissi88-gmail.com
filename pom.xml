@@ -15,11 +15,13 @@
       <version>5.4.2</version>
       <scope>test</scope>
     </dependency>
+<!-- https://mvnrepository.com/artifact/io.jenkins.plugins/warnings-ng -->
 <dependency>
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>warnings-ng</artifactId>
-    <version>8.1.0</version>
+    <version>8.0.0</version>
 </dependency>
+
   </dependencies>
 
   <build>
