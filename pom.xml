@@ -7,7 +7,12 @@
   <version>1.1</version>
   <groupId>default</groupId>
   <artifactId>my-project</artifactId>
-
+ <parent>
+    <groupId>org.jenkins-ci.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>[latest-version]</version>
+    <relativePath />
+  </parent>
   <dependencies><!-- dependendance du projet -->
     <dependency><!-- bibliotheque junit -->
       <groupId>org.junit.jupiter</groupId>
