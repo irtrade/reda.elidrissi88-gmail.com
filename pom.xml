@@ -10,7 +10,6 @@
  <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>[latest-version]</version>
     <relativePath />
   </parent>
   <dependencies><!-- dependendance du projet -->
